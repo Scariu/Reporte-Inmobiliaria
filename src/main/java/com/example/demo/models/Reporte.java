@@ -12,7 +12,6 @@ public class Reporte {
 	private Long id;
 	private String nombre;
 	private String descripcion;
-	private String precio;
 
 	public Reporte() {
 		super();
@@ -23,7 +22,6 @@ public class Reporte {
 		this.id = id;
 		this.nombre = nombre;
 		this.descripcion = descripcion;
-		this.precio = precio;
 	}
 
 	public Long getId() {
@@ -48,14 +46,6 @@ public class Reporte {
 
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
-	}
-
-	public String getPrecio() {
-		return precio;
-	}
-
-	public void setPrecio(String precio) {
-		this.precio = precio;
 	}
 
 }

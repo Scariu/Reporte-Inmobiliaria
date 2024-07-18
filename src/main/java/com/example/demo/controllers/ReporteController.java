@@ -50,7 +50,6 @@ public class ReporteController {
 		}
 		reporte.setNombre(reportes.getNombre());
 		reporte.setDescripcion(reportes.getDescripcion());
-		reporte.setPrecio(reportes.getPrecio());
 		Reporte actualizarReporte = reporteService.saveReporte(reporte);
 		return ResponseEntity.ok(actualizarReporte);
 	}
